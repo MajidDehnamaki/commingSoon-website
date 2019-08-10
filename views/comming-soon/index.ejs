@@ -1,0 +1,53 @@
+<%- include("../includes/head.ejs") %>
+<!--  -->
+<div class="simpleslide100">
+  <div
+    class="simpleslide100-item bg-img1"
+    style="background-image: url('images/bg01.jpg');"
+  ></div>
+  <div
+    class="simpleslide100-item bg-img1"
+    style="background-image: url('images/bg02.jpg');"
+  ></div>
+  <div
+    class="simpleslide100-item bg-img1"
+    style="background-image: url('images/bg03.jpg');"
+  ></div>
+</div>
+
+<div class="size1 overlay1">
+  <!--  -->
+  <div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
+    <h3 class="l1-txt1 txt-center p-b-25">
+      Coming Soon
+    </h3>
+
+    <p class="m2-txt1 txt-center p-b-48">
+      <%= description%>
+    </p>
+
+    <footer class="footer">
+      <section class="social-links">
+        <ul>
+          <li>
+            <a href="<%= twitter %>"
+              ><i class="fa fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+                <a href="<%= instagram %>"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+                <a href="<%= telegram %>"
+              ><i class="fa fa-telegram"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </div>
+</div>
+
+<%- include("../includes/end.ejs") %>
