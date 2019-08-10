@@ -5,7 +5,7 @@ const rootDir = require("./util/path");
 
 //router
 const commingSoonRoutes = require("./routes/comming-soon");
-const notFoundRoutes = require("./routes/not-found");
+const notFoundController = require("./controllers/not-found");
 
 const app = express();
 
@@ -17,6 +17,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(rootDir, "public")));
 
 app.use(commingSoonRoutes);
-
+app.use(notFoundController.get404Page);
 
 app.listen(3000);

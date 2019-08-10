@@ -1,4 +1,5 @@
 exports.get404Page = (req, res, next) => {
-    res.redirect("/")
-  };
-  
+  var ip = req.headers["x-forwarded-for"] || req.connection.remoteAddress;
+  console.log(ip);
+  res.redirect("/");
+};
