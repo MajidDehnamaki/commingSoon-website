@@ -1,5 +1,5 @@
 {
-  "name": "commingsoon-website",
+  "name": "personal-website",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MajidDehnamaki/commingSoon-website.git"
+    "url": "git+https://github.com/MajidDehnamaki/personal-website.git"
   },
   "author": "Majid Dehnamaki",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MajidDehnamaki/commingSoon-website/issues"
+    "url": "https://github.com/MajidDehnamaki/personal-website/issues"
   },
-  "homepage": "https://github.com/MajidDehnamaki/commingSoon-website#readme",
+  "homepage": "https://github.com/MajidDehnamaki/personal-website#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^2.6.2",
